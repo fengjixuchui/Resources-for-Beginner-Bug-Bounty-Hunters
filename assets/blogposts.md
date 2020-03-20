@@ -1,6 +1,6 @@
 # Resources-for-Beginner-Bug-Bounty-Hunters
 
-## Blog posts
+## Blog posts 📝
 A collection of Blog Posts ordered by Vulnerability Types
 - [XSS](#XSS)
     - [DOM XSS](#DOM-XSS)
@@ -19,7 +19,11 @@ A collection of Blog Posts ordered by Vulnerability Types
 - [Buffer Overflow](#Buffer-Overflow)
 - [IDOR](#IDOR)
 - [GraphQL](#GraphQL)
+- [RCE](#RCE)
+- [Recon](#Recon)
+- [Smart Contracts](#Smart-Contracts)
 - [Misc](#Misc)
+---
 ## XSS
 You can find a ton of awesome XSS reports by searching through the HackerOne Hacktivity Page (https://hackerone.com/hacktivity?querystring=XSS). Here are some more complex and some of my favorite XSS related blog posts:
 
@@ -67,7 +71,7 @@ You can find a ton of awesome XSS reports by searching through the HackerOne Hac
 ## Mobile
 ### iOS
 - [From checkra1n to Frida: iOS App Pentesting Quickstart on iOS 13](https://spaceraccoon.dev/from-checkra1n-to-frida-ios-app-pentesting-quickstart-on-ios-13) - spaceraccoon
-## Android
+### Android
 - [A deep dive into reversing Android pre-Installed apps](https://github.com/maddiestone/ConPresentations/blob/master/Blackhat2019.SecuringTheSystem.pdf) and the [BlackHat Talk](https://www.youtube.com/watch?v=U6qTcpCfuFc) - Maddie Stone
 
 ## HTTP Desync
@@ -92,18 +96,31 @@ You can find a ton of awesome XSS reports by searching through the HackerOne Hac
 - [Steal Earning of Airbnb hosts by Adding Bank Account/Payment Method](https://www.indoappsec.in/2019/12/airbnb-steal-earning-of-airbnb-hosts-by.html) - [Vijay Kumar ](https://twitter.com/IndoAppSec)
 - [GraphQL IDOR leads to information disclosure](https://medium.com/@R0X4R/graphql-idor-leads-to-information-disclosure-175eb560170d) - [@R0X4R](https://twitter.com/R0X4R)
 - [From Multiple IDORs leading to Code Execution on a different Host Container](https://www.rahulr.in/2019/10/idor-to-rce.html?m=1) - [@Rahul_R95](https://twitter.com/Rahul_R95)
+- [Automating BURP to find IDORs](https://medium.com/cyberverse/automating-burp-to-find-idors-2b3dbe9fa0b8) - [Aditya Soni](https://medium.com/@hetroublemakr)
 
 ## GraphQL
 - [Private System Note Disclosure using GraphQL](https://hackerone.com/reports/633001) - Ron Chan
 - [Graphql Abuse to Steal Anyone’s Address](https://blog.usejournal.com/graphql-bug-to-steal-anyones-address-fc34f0374417) - pratik yadav
 
-## Misc
+## RCE
+- [My First RCE (Stressed Employee gets me 2x bounty)](https://medium.com/@abhishake100/my-first-rce-stressed-employee-gets-me-2x-bounty-c4879c277e37) - [Abhishek Yadav](https://medium.com/@abhishake100)
+
+## Recon
+- [Subdomain Recon Using Certificate Search Technique](https://www.r00tpgp.com/2020/01/subdomain-recon-using-certificate.html?m=0)
 - [Notes about Nahamsecs Recon Sessions](https://mavericknerd.github.io/knowledgebase/nahamsec/recon_session_1/) - [maverickNerd](https://github.com/maverickNerd)
+- [10 Recon Tools For Bug Bounty](https://medium.com/@hackbotone/10-recon-tools-for-bug-bounty-bafa8a5961bd) - Anshuman Pattnaik
+
+## Smart Contracts
+- [Steal collateral during `end` process, by earning DSR interest after `flow](https://hackerone.com/reports/672664)(Listed as Business Logic Error)
+- [Steal all MKR from `flap` during liquidation by exploiting lack of validation in `flap.kick`](https://hackerone.com/reports/684152)(Listed as Improper Input Validation)
+
+## Misc
 - [Hacking GitHub with Unicode's dotless 'i'](https://eng.getwisdom.io/hacking-github-with-unicode-dotless-i/)
 - [Abusing autoresponders and email bounces](https://medium.com/intigriti/abusing-autoresponders-and-email-bounces-9b1995eb53c2) - securinti
 - [Abusing HTTP hop-by-hop request headers](https://nathandavison.com/blog/abusing-http-hop-by-hop-request-headers) - [@nj_dav](https://twitter.com/nj_dav)
 - [Cracking reCAPTCHA, Turbo Intruder style](https://portswigger.net/research/cracking-recaptcha-turbo-intruder-style) - James Kettle
 - [Abusing ImageMagick to obtain RCE](https://strynx.org/imagemagick-rce/) - [strynx](https://strynx.org/)
+- [How to Get a Finger on the Pulse of Corporate Networks via the SSL VPN](https://blog.detectify.com/2019/09/19/alyssa-herrera-pulse-corporate-networks-ssl-vpn/) - [Alyssa Herrera](https://twitter.com/Alyssa_Herrera_)
 
 ---
 back to [Intro Page](/README.md)

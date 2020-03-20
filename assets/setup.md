@@ -1,6 +1,6 @@
 # Resources-for-Beginner-Bug-Bounty-Hunters
 
-## Setup
+## Setup 💻
 This section will help you set up your testing environement.
 - [Setting Up Your Ubuntu Box for Pentest and Bug Bounty Automation](https://www.youtube.com/watch?v=YhUiAH5SIqk) by nahamsec
 - [Setting up your own web server on a VPS](https://www.linux.com/learn/easy-lamp-server-installation)
@@ -8,6 +8,8 @@ This section will help you set up your testing environement.
 - [Docker For Pentesting And Bug Bounty Hunting](https://www.youtube.com/watch?v=5G6tA8Q9AuQ)
 - [Basics of UNIX](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 - [Previously Disclosed Vulnerabilities / HackerOne Hacktivity](https://hackerone.com/hacktivity)
+- [Finding your First Bug and Getting a Bounty - Personal Story by @InsiderPhD](https://www.youtube.com/watch?v=iEDoIEBD7gM) - YouTube Discussion
+- [Introduction to Docker for CTFs](https://www.youtube.com/watch?v=cPGZMt4cJ0I) (Works for Bug Bounty too) - by LiveOverflow
 
 ## Burp Suite
 This section should help you get familiar with BurpSuite.
